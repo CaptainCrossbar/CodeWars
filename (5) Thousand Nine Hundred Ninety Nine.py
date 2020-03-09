@@ -15,4 +15,4 @@ def number_to_english(n):
             [number_to_english(n//100)+" hundred", number_to_english(n % 100)]
         ).replace(" zero", "").rstrip() if n < 1000 else " ".join(
             [number_to_english(n//1000)+" thousand", number_to_english(n % 1000)]
-    )
+    ) 
